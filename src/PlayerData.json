@@ -1,0 +1,31 @@
+[{
+        "key": "1",
+        "name": "L. Messi",
+        "nationality": "Argentina",
+        "club": "FC Barcelona"
+    },
+    {
+        "key": "2",
+        "name": "Cristiano Ronaldo",
+        "nationality": "Portugal",
+        "club": "Juventus"
+    },
+    {
+        "key": "3",
+        "name": "Neymar Jr",
+        "nationality": "Brazil",
+        "club": "Paris Saint-Germain"
+    },
+    {
+        "key": "4",
+        "name": "De Gea",
+        "nationality": "Spain",
+        "club": "Manchester United"
+    },
+    {
+        "key": "5",
+        "name": "K. De Bruyne",
+        "nationality": "Belgium",
+        "club": "Manchester City"
+    }
+]

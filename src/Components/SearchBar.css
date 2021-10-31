@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@800&display=swap');
+.search input {
+    float: right;
+    margin-top: 200px;
+    margin-right: 220px;
+    background-color: white;
+    border: 0;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 10px;
+    height: 25px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searchIcon {
+    float: right;
+    margin-top: 200px;
+    margin-right: -365px;
+    padding: 10px;
+    height: 26px;
+    width: 25px;
+    color: white;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: rgba(255, 56, 56, 0.952);
+}
+
+.searchicon {
+    width: 25px;
+    height: 26px;
+    margin-left: -2px;
+}
+
+.searchtext {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.searchIcon p {
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.dataresult {
+    float: right;
+    margin-right: -300px;
+    margin-top: 250px;
+    max-height: 200px;
+    width: 300px;
+    color: black;
+    background-color: #ffff;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataresult::-webkit-scrollbar {
+    display: none;
+}
+
+.dataItem {
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: left;
+    font-size: 15px;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+.dataItem:hover {
+    background-color: rgba(247, 82, 82, 0.658);
+}
+
+input::-webkit-input-placeholder {
+    font-size: 13.5px;
+}
+
+#clearBtn {
+    cursor: pointer;
+    width: 27px;
+    height: 27px;
+    margin-left: -2.5px;
+}

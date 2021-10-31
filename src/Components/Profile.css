@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+.profile-page {
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    background-image: url(./img/playerprofilebg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(82, 80, 80);
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: 60px;
+    font-weight: bold;
+    z-index: 111;
+    left: 80px;
+}
+
+.home:hover {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 30%);
+}
+
+.help {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(82, 80, 80);
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: 60px;
+    font-weight: bold;
+    z-index: 111;
+    left: 200px;
+}
+
+.help:hover {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 30%);
+}
+
+.player-detail {
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    top: 20px;
+}
+
+.player-detail span {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 40px;
+    color: rgb(43, 19, 19);
+}
+
+.playerImg {
+    width: 90px;
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+
+.club-logo {
+    width: 55px;
+    height: auto;
+    position: relative;
+    top: 30px;
+    left: -10px;
+    z-index: 3;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.club-logo:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 30%);
+}
+
+.country-logo {
+    width: 44px;
+    position: relative;
+    top: 25px;
+    transition: 0.3s;
+    height: auto;
+    cursor: pointer;
+}
+
+.country-logo:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 30%);
+}
+
+.player-container {
+    display: flex;
+}
+
+.graph-data {
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.graph-data::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 160px;
+    width: 1.75px;
+    height: 330px;
+    background-color: gainsboro;
+}
+
+.player-graph {
+    width: 400px;
+    height: auto;
+    margin-top: 180px;
+}
+
+.player-data {
+    position: relative;
+    margin-top: 180px;
+    right: -40px;
+}
+
+.overall {
+    font-size: 20px;
+    background-color: #2b6610;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.overall span {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container1 h2,
+.container2 h2 {
+    font-size: 16px;
+    font-weight: 550;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container1 h2 span,
+.container2 h2 span {
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: #2b6610;
+}
+
+.container2 {}
